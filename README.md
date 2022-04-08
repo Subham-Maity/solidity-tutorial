@@ -122,7 +122,7 @@ contract Storage {
 ```
 
 **Byte Code**
-```text
+```javascript
 {
 	"functionDebugData": {},
 	"generatedSources": [],
