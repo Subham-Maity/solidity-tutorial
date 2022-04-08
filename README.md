@@ -484,5 +484,5 @@ Some important points to note-:
 
 Answer
 ```javascript
-- [ ] 2. ABI and Bytecode
+2. ABI and Bytecode
 ```
