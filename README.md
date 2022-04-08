@@ -51,4 +51,20 @@ You can use it as an online and offline both type of version
 
 # Solidity Compilation Process 
 
-#### 
+<p align="center">
+        <img src="https://github.com/Subham-Maity/solidity-tutorial/blob/master/Image(ignore)/compilation.png?raw=true"/>
+        </p>
+
+
+### ABI
+```javascript
+The Contract Application Binary Interface (ABI) 
+is the standard way to interact with contracts 
+in the Ethereum ecosystem, both from outside the 
+blockchain and for contract-to-contract interaction. 
+Data is encoded according to its type, 
+as described in this specification.
+```
+#### ABI is a bridge between an application and sol file ( to communicate source.sol file ) without ABI of our solidity file communication is impossible 
+
+
