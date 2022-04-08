@@ -425,3 +425,64 @@ like this
 <p align="center">
         <img src="https://github.com/Subham-Maity/solidity-tutorial/blob/master/Image(ignore)/ss7.png?raw=true"/>
         </p>
+
+Image ABI
+```sol
+[
+	{
+		"inputs": [],
+		"name": "retrieve",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "num",
+				"type": "uint256"
+			}
+		],
+		"name": "store",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]
+```
+
+You can find every OpCode here
+
+https://github.com/Subham-Maity/evm-opcodes
+
+### Node
+
+Some important points to note-:
+
+• Contract bytecode is public in readable form.
+
+• Contract doesn't have to be public.
+
+• Bytecode is immutable.
+
+• ABI act as a bridge between applications and smart contract.
+
+• ABI and Bytecode cannot be generated without source code.
+
+
+**Q: Solidity code get split into ____ and ____ after compilation.**
+- [ ] 1. Opcode and Bytecode
+- [ ] 2. ABI and Bytecode
+- [ ] 3. Opcode and ABI
+
+Answer
+```javascript
+- [ ] 2. ABI and Bytecode
+```
