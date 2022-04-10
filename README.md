@@ -19,6 +19,7 @@ Actually, I was working on this project then I did research and made many projec
 
 [**Solidity Compilation Process**](#solidity-compilation-process)
 
+[**Mainnet vs Testnet**](#)
 
 *******
 # Solidity Fundamentals
@@ -486,3 +487,33 @@ Answer
 ```javascript
 2. ABI and Bytecode
 ```
+
+
+# Mainnet vs Testnet 
+
+## Mainnet - 
+Mainnet is best described as a blockchain that has been fully tested, developed, deployed, and is running its own network with its own technology and protocol. This means that all transactions are actively being broadcasted, verified, and recorded on a digital public ledger (blockchain).
+
+The tokens on a mainnet have monetary value, whereas the tokens on a testnet do not.
+
+## Testnet - 
+In blockchain technology, a testnet is an instance of a blockchain powered by the same or a newer version of the underlying software, to be used for testing and experimentation without risk to real funds or the main chain.
+
+A testnet only exists as a working prototype for a blockchain project, while a mainnet is a completely developed blockchain platform for users to send and receive cryptocurrency transactions (or any other kind of digital data that is recorded on a distributed ledger).
+
+
+
+| **Mainnet**                                | **Testnet**                                 |
+|--------------------------------------------|---------------------------------------------|
+| Used for actual transactions with value.   | Used for testing smart contracts and dapps. |
+| Mainnet's network id is 1.                 | Testnet network id can 3,4 or 42.           |
+| Example - Ethereum mainnet                 | Example – Rinkeby , Ropsten etc.            |
+
+
+
+### Learn More from [here](https://masterthecrypto.com/mainnet-vs-testnet-whats-the-difference/)
+
+## Transaction Websites 
+
+### Mainnet Transactions are [here](https://etherscan.io/)
+### Testnet Transactions are [here](https://rinkeby.etherscan.io/)
