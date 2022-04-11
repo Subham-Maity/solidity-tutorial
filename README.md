@@ -21,6 +21,8 @@ Actually, I was working on this project then I did research and made many projec
 
 [**Mainnet vs Testnet**](#mainnet-vs-testnet)
 
+[**What is metamask ?**](#mainnet-vs-testnet)
+
 *******
 # Solidity Fundamentals
 
@@ -517,3 +519,19 @@ A testnet only exists as a working prototype for a blockchain project, while a m
 
 ### Mainnet Transactions are [here](https://etherscan.io/)
 ### Testnet Transactions are [here](https://rinkeby.etherscan.io/)
+
+
+# What is metamask ?
+
+Store Ether
+
+Send Ether
+
+Receive Ether
+
+Run Dapps
+
+Swap Tokens
+<p align="center">
+        <img src="https://github.com/Subham-Maity/solidity-tutorial/blob/master/Image(ignore)/ss8.png?raw=true"/>
+        </p>
