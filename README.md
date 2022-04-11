@@ -532,9 +532,27 @@ Receive Ether
 Run Dapps
 
 Swap Tokens
+
 <p align="center">
         <img src="https://github.com/Subham-Maity/solidity-tutorial/blob/master/Image(ignore)/ss8.png?raw=true"/>
         </p>
 
 
 ## Download from [here](https://metamask.io/)
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/solidity-tutorial/blob/master/Image(ignore)/ss9.png?raw=true"/>
+        </p>
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/solidity-tutorial/blob/master/Image(ignore)/ss10.png?raw=true"/>
+        </p>
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/solidity-tutorial/blob/master/Image(ignore)/ss11.png?raw=true"/>
+        </p>
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/solidity-tutorial/blob/master/Image(ignore)/ss12.png?raw=true"/>
+        </p>
+
