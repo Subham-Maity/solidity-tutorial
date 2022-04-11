@@ -21,7 +21,7 @@ Actually, I was working on this project then I did research and made many projec
 
 [**Mainnet vs Testnet**](#mainnet-vs-testnet)
 
-[**What is metamask ?**](#mainnet-vs-testnet)
+[**What is metamask ?**](#what-is-metamask-)
 
 *******
 # Solidity Fundamentals
@@ -583,7 +583,7 @@ Swap Tokens
         </p>
 
 
-This is our mainnet 
+This is our Mainnet 
 
 <p align="center">
         <img src="https://github.com/Subham-Maity/solidity-tutorial/blob/master/Image(ignore)/ss19.png?raw=true"/>
