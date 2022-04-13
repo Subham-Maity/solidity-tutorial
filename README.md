@@ -23,6 +23,7 @@ Actually, I was working on this project then I did research and made many projec
 
 [**What is metamask ?**](#what-is-metamask-)
 
+[**Transfer ether from Rinkeby faucet to Metamask**](#)
 *******
 # Solidity Fundamentals
 
@@ -588,3 +589,19 @@ This is our Mainnet
 <p align="center">
         <img src="https://github.com/Subham-Maity/solidity-tutorial/blob/master/Image(ignore)/ss19.png?raw=true"/>
         </p>
+
+
+
+# Transfer ether from Rinkeby faucet to Metamask
+
+ETH on testnets has no real value; therefore we get testnet
+ETH from faucets. Example- Rinkèby faucet ,Ropsten faucet
+etc.
+
+## Go to this [Website](https://faucet.rinkeby.io/)
+
+
+
+
+
+
