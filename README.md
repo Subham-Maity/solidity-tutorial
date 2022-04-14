@@ -10,6 +10,7 @@ Actually, I was working on this project then I did research and made many projec
 
 ## Chapter List
 *******
+*******
 * [**Solidity Fundamentals**](#solidity-fundamentals)
 
 
@@ -24,8 +25,29 @@ Actually, I was working on this project then I did research and made many projec
 [**What is metamask ?**](#what-is-metamask-)
 
 [**Transfer ether from Rinkeby faucet to Metamask**](#)
+
 *******
+
+* [**Start Solidity programing**](#solidity-fundamentals)
+
+
+[**Say "Hello World" in Solidity**](#what-is-solidity)
+
+
+*******
+
+
+
+
+
+
 # Solidity Fundamentals
+
+### Bro don't skip this part before learning Solidity programming the fundamentals' knowledge is always a good way to start
+
+<p align="center">
+        <img src="https://c.tenor.com/rePDfDWO3XoAAAAM/hacking.gif"/>
+        </p>
 
 ## What is Solidity? 
 ```javascript
@@ -598,7 +620,37 @@ ETH on testnets has no real value; therefore we get testnet
 ETH from faucets. Example- Rinkèby faucet ,Ropsten faucet
 etc.
 
-## Go to this [Website](https://faucet.rinkeby.io/)
+
+
+## Go to this [Website](https://rinkebyfaucet.com/)
+
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/solidity-tutorial/blob/master/Image(ignore)/ss21.png?raw=true"/>
+        </p>
+
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/solidity-tutorial/blob/master/Image(ignore)/ss22.png?raw=true"/>
+        </p>
+
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/solidity-tutorial/blob/master/Image(ignore)/ss23.png?raw=true"/>
+        </p>
+
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/solidity-tutorial/blob/master/Image(ignore)/ss24.png?raw=true"/>
+        </p>
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/solidity-tutorial/blob/master/Image(ignore)/ss25.png?raw=true"/>
+        </p>
+
+
+**just copy this address and paste on the website and ask for fake eth** 
+
 
 
 
