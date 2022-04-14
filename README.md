@@ -33,7 +33,9 @@ Actually, I was working on this project then I did research and made many projec
 
 [**Say "Hello World" in Solidity**](#say-hello-world-in-solidity)
 
-[**Contract Development Environment**](#)
+[**Contract Development Environment**](#contract-development-environment)
+
+[**Solidity Sample Programt**](#solid)
 
 *******
 
@@ -705,6 +707,9 @@ Open your remix IDE and do like the below images
         <img src="https://media3.giphy.com/media/IiuZjA4RQUKIf5TbMi/giphy.gif?cid=ecf05e47m5d24jxee96vhz3cq2yzh3z0lmnnyqfjht3lbd1y&rid=giphy.gif&ct=g"/>
         </p>
 
+<p align="center">
+        <img src="https://github.com/Subham-Maity/solidity-tutorial/blob/master/Image(ignore)/39.png?raw=true"/>
+        </p>
 
 
 Deploy the contract
@@ -727,6 +732,10 @@ Connect to a remote node and Ethereum client.
 ```
 
 - **Web3 Provider**
+
+```javascript
+Connect to a remote node and Ethereum client
+```
 
 Both Injected Web3 and Web3 Provider require the use of an external tool.
 
@@ -778,3 +787,84 @@ Because get is a view function, you can see the return value just below the get 
 <p align="center">
         <img src="https://remix-ide.readthedocs.io/en/latest/_images/a-jvm-calling-instance.png"/>
         </p>
+
+
+# Solidity Sample Program
+
+We are using here SPDX-License Identifier 
+
+Read [here](https://en.wikipedia.org/wiki/Software_Package_Data_Exchange)
+
+## Pragma 
+
+Pragma is generally the first line of code within any Solidity file. pragma is a directive that specifies the compiler version to be used for current Solidity file.
+
+Solidity is a new language and is subject to continuous improvement on an on-going basis. Whenever a new feature or improvement is introduced, it comes out with a new version. The current version at the time of writing was 0.4.19.
+
+With the help of the pragma directive, you can choose the compiler version and target your code accordingly, as shown in the following code example:
+
+```solidity
+pragma Solidity ^0.4.19;
+```
+
+
+
+Although it is not mandatory, it is a good practice to declare the pragma directive as the first statement in a Solidity file.
+
+The syntax for the pragma directive is as follows: ...
+```solidity
+pragma solidity >=0.5.0 <0.9.0;
+```
+## Contract
+
+Contract in Solidity is similar to a Class in C++. A Contract have following properties. Constructor − A special function declared with constructor keyword which will be executed once per contract and is invoked when a contract is created. State Variables − Variables per Contract to store the state of the contract.
+
+```solidity
+contract blockchain { }
+```
+Blockchain is our classname
+
+### Constructor
+Solidity supports declaring constructor inside a smart contract and it is invoked—only once—while deploying it. The compiler creates default constructor if there is no constructor defined explicitly.
+
+The constructor is declared by keyword “constructor” with no function name, followed by access modifier - public or internal. Solidity doesn’t allow us to create a private or external constructor.
+### Let's make a program and let's try to compile that file  
+
+```solidity
+//SPDX-License-Identifier: UNLICENSED"
+pragma solidity >=0.5.0 <0.9.0;
+
+contract blockchain {
+int number;
+constructor() 
+{
+number = 5;
+}
+function getter() public view returns(int){
+
+return number;
+
+}
+
+function increment() public {
+number = number+1;
+
+}
+}
+```
+<p align="center">
+        <img src="https://github.com/Subham-Maity/solidity-tutorial/blob/master/Image(ignore)/40.png?raw=true"/>
+        </p>
+
+```solidity
+
+```
+
+```solidity
+
+```
+
+```solidity
+
+```
+
