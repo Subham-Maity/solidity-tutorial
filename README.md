@@ -651,6 +651,52 @@ etc.
 
 **just copy this address and paste on the website and ask for fake eth** 
 
+# Start Solidity Programming 
+
+<p align="center">
+        <img src="https://i.gifer.com/Dtf.gif"/>
+        </p>
+
+# Say "Hello World" in Solidity
+
+```sol
+pragma solidity >=0.5.0 < 0.9.0;
+
+contract HelloSolidity{
+    string public str = "Hello Solidity";
+    }
+```
+Open your remix IDE and do like the below images 
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/solidity-tutorial/blob/master/Image(ignore)/32.png?raw=true"/>
+        </p>
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/solidity-tutorial/blob/master/Image(ignore)/33.png?raw=true"/>
+        </p>
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/solidity-tutorial/blob/master/Image(ignore)/34.png?raw=true"/>
+        </p>
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/solidity-tutorial/blob/master/Image(ignore)/35.png?raw=true"/>
+        </p>
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/solidity-tutorial/blob/master/Image(ignore)/36.png?raw=true"/>
+        </p>
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/solidity-tutorial/blob/master/Image(ignore)/37.png?raw=true"/>
+        </p>
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/solidity-tutorial/blob/master/Image(ignore)/38.png?raw=true"/>
+        </p>
+
+
 
 
 
