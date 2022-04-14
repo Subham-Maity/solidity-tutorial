@@ -654,7 +654,7 @@ etc.
 # Start Solidity Programming 
 
 <p align="center">
-        <img src="https://i.gifer.com/Dtf.gif"/>
+        <img src="https://media2.giphy.com/media/108M7gCS1JSoO4/giphy.gif?cid=ecf05e47sinksjfektypfd61fto3f6la3rqlqpoigtyij3tw&rid=giphy.gif&ct=g"/>
         </p>
 
 # Say "Hello World" in Solidity
