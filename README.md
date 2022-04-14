@@ -35,7 +35,7 @@ Actually, I was working on this project then I did research and made many projec
 
 [**Contract Development Environment**](#contract-development-environment)
 
-[**Solidity Sample Programt**](#solidity-sample-program)
+[**Solidity Sample Program**](#solidity-sample-program)
 
 *******
 
