@@ -37,6 +37,9 @@ Actually, I was working on this project then I did research and made many projec
 
 [**Solidity Sample Program**](#solidity-sample-program)
 
+[**State Variables**](#solidity-sample-program)
+
+
 *******
 
 
@@ -884,4 +887,31 @@ number = number+1;
         </p>
 
 
+# State Variables
 
+
+## Unit 
+Unsigned Integers: uint
+The uint data type is an unsigned integer, meaning its value must be non-negative. There’s also an int data type for signed integers.
+
+
+**Note:** 
+In Solidity, uint is actually an alias for uint256, a 256-bit unsigned integer. You can declare uints with less bits — uint8, uint16, uint32, etc.. But in general you want to simply use uint except in specific cases.
+
+Example :
+```solidity
+pragma solidity >=0.5.0 <0.9.0;
+
+contract xam {
+
+
+    //Unsigned Integers: uint
+    //unit is a dataType and age is state variable name 
+    //unit age ; 
+    //age = 10; //we can't declare then initialize
+
+    uint public age = 10; //if we use public then we can see the age value 
+
+}
+
+```
