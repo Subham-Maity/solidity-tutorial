@@ -915,3 +915,14 @@ contract xam {
 }
 
 ```
+<p align="center">
+        <img src="https://github.com/Subham-Maity/solidity-tutorial/blob/master/Image(ignore)/47.png?raw=true"/>
+        </p>
+
+if we remove the public we can't see anything 
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/solidity-tutorial/blob/master/Image(ignore)/48.png?raw=true"/>
+        </p>
+
+
