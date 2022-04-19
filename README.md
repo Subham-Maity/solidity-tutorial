@@ -37,7 +37,7 @@ Actually, I was working on this project then I did research and made many projec
 
 [**Solidity Sample Program**](#solidity-sample-program)
 
-[**State Variables**](#solidity-sample-program)
+[**State Variables**](#state-variable)
 
 
 *******
