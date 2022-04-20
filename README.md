@@ -1038,3 +1038,20 @@ contract blockchain {
     }
 }
 ```
+<p align="center">
+        <img src="https://github.com/Subham-Maity/solidity-tutorial/blob/master/Image(ignore)/49.png?raw=true"/>
+        </p>
+
+
+## Basic QuiZ 3 (**state vs local**)
+1.contract demo { uint x =5; } In this x is a
+- [X] 1. State variable
+- [ ] 2. Local Variable 
+- [ ] 3. Both
+- [ ] 4. None
+
+
+Answer : - 
+```text
+State variable 
+```
