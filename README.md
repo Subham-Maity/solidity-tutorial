@@ -41,6 +41,8 @@ Actually, I was working on this project then I did research and made many projec
 
 [**Local Variables**](#local-variable)
 
+[**Functions**](#function)
+
 
 *******
 
