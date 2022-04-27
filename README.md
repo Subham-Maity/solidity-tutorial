@@ -43,6 +43,8 @@ Actually, I was working on this project then I did research and made many projec
 
 [**Functions**](#function)
 
+[**View VS Pure**](#)
+
 
 *******
 
@@ -1163,3 +1165,99 @@ contract FunctionArgument{
 }
 
 ```
+
+
+# View vs Pure
+
+## View
+
+View functions ensure that they will not modify the state. A function can be declared as view. The following statements if present in the function are considered modifying the state and compiler will throw warning in such cases.
+
+- Modifying state variables.
+
+- Emitting events.
+
+- Creating other contracts.
+
+- Using self destruct.
+
+- Sending Ether via calls.
+
+- Calling any function which is not marked view or pure.
+
+- Using low-level calls.
+
+- Using inline assembly containing certain opcodes.
+
+- Getter method are by default view functions.
+
+### Example
+
+```solidity
+pragma solidity ^0.5.0;
+
+contract Test {
+   function getResult() public view returns(uint product, uint sum){
+      uint a = 1; // local variable
+      uint b = 2;
+      product = a * b;
+      sum = a + b; 
+   }
+}
+```
+
+```text
+0: uint256: product 2
+1: uint256: sum 3
+```
+
+## Another Example 
+
+```solidity
+ //SPDX-License-Identifier: UNLICENSED
+pragma solidity >=0.5.0 < 0.9.0;
+contract demo{
+uint number; //state var 
+function get() public view returns (uint){
+return number;//we are not modifying the variable we are just try to view the variable
+       }
+}
+```
+```text
+0
+```
+
+## Pure
+Pure functions ensure that they not read or modify the state. A function can be declared as pure. The following statements if present in the function are considered reading the state and compiler will throw warning in such cases.
+
+- Reading state variables.
+
+- Accessing address(this).balance or address.balance.
+
+- Accessing any of the special variable of block, tx, msg (msg.sig and msg.data can be read).
+
+- Calling any function not marked pure.
+
+- Using inline assembly that contains certain opcodes.
+
+- Pure functions can use the revert() and require() functions to revert potential state changes if an error occurs.
+
+### Example
+
+```solidity
+pragma solidity ^0.5.0;
+
+contract Test {
+   function getResult() public pure returns(uint product, uint sum){
+      uint a = 1; 
+      uint b = 2;
+      product = a * b;
+      sum = a + b; 
+   }
+}
+```
+```text
+0: uint256: product 2
+1: uint256: sum 3
+```
+
